@@ -1,0 +1,105 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Conversation  
+    </ion-title>
+  </ion-toolbar>
+  
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+<ion-list>
+  <ion-item button (click)="buttonClick()">
+  
+    <ion-avatar>
+      <img src="assets/avatar-1.jpg">
+    </ion-avatar> 
+    <ion-label>
+      <h2>James Ybanez</h2>
+      <h3>My First App..</h3>
+    </ion-label>
+ </ion-item>
+
+ <ion-item button (click)="buttonClick()">
+    <ion-avatar>
+      <img src="assets/avatar-2.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>John Edwin Serrano</h2>
+      <h3>Kamusta ssob?</h3>
+    </ion-label>
+   </ion-item>
+
+   <ion-item button (click)="buttonClick()">
+    <ion-avatar>
+      <img src="assets/avatar-3.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Marc Maceda</h2>
+      <h3>May klase ba?</h3>
+    </ion-label>
+   </ion-item>
+
+   <ion-item button (click)="buttonClick()">
+    <ion-avatar>
+      <img src="assets/avatar-4.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Carene Solano</h2>
+      <h3>Ang ganda ko talaga</h3>
+    </ion-label>
+   </ion-item>
+
+</ion-list>
+
+<ion-list>
+  <ion-list-header>
+     <ion-button color='#69bb7b'>Online</ion-button>
+  </ion-list-header>
+
+  <ion-item button (click)="buttonClick()">
+    <ion-avatar slot="start">
+      <img src="assets/avatar-5.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Jomar Junsay</h2>
+     
+    </ion-label>
+  </ion-item>
+
+  <ion-item button (click)="buttonClick()">
+    <ion-avatar slot="start">
+      <img src="assets/avatar-6.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Nirus Rivera</h2>
+     
+    </ion-label>
+  </ion-item>
+
+  <ion-item button (click)="buttonClick()">
+    <ion-avatar slot="start">
+      <img src="assets/avatar-7.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Ian Pana</h2>
+   
+    </ion-label>
+  </ion-item>
+
+  <ion-item button (click)="buttonClick()">
+    <ion-avatar slot="start">
+      <img src="assets/avatar-8.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Renzo Mercado</h2>
+     
+    </ion-label>
+  </ion-item>
+</ion-list>
+</ion-content>
